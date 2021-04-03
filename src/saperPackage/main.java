@@ -1,9 +1,16 @@
 package saperPackage;
-
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 public class main {
+
+    private static startFrame startframe;
+
+
     public static void main(String[] args) {
-        System.out.println("hello");
 
+        startframe = new startFrame();
 
 
 
@@ -11,10 +18,6 @@ public class main {
     }
 
 
-    private void displayText(){
-        System.out.println("Siema");
-
-    }
 
 
 }
