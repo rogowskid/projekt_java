@@ -25,6 +25,13 @@ public class startFrame {
         panel.add(startG);
         frame.add(panel, BorderLayout.CENTER);
 
+        System.out.println("Adrian tu był!");
+        System.out.println("Adrian tu był!");
+        System.out.println("Adrian tu był!");
+        System.out.println("Adrian tu był!");
+        System.out.println("Adrian tu był!");
+        System.out.println("Adrian tu był!");
+
     }
 
 }
