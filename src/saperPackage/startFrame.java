@@ -8,22 +8,32 @@ import java.awt.event.ActionListener;
 public class startFrame {
     public JFrame frame;
     public JPanel panel;
+    public JPanel panel2;
     public JButton startG;
+    public JButton ranking;
     public startFrame(){
 
         panel = new JPanel();
         frame = new JFrame();
+        panel2 = new JPanel();
+        //definicja przyciskow
         startG = new JButton("Start Game"); //definicja przycisku Start Game
+        ranking = new JButton("Ranking");
+        panel.add(startG);
+        panel2.add(ranking);
+
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); //Wczytanie znaku zamkniecie w prawym rogu
         frame.setTitle("Saper"); //Nazwa okna
         frame.pack();
         frame.setSize(700,700); //ustawienie szerokosci jak i wysokosci okna
         frame.setVisible(true); //true oznacza ze okno jest widczone
-        panel.setBorder(BorderFactory.createEmptyBorder(0, 300, 100, 0));
+        panel.setBorder(BorderFactory.createEmptyBorder(100, 0, 500, 0));
+        panel2.setBorder(BorderFactory.createEmptyBorder(200, 0, 500, 0));
+        frame.add(panel);
+        frame.add(panel2);
 
-        panel.setLayout(new GridLayout(0,1));
-        panel.add(startG);
-        frame.add(panel, BorderLayout.CENTER);
+
+
 
         System.out.println("Adrian tu był!");
         System.out.println("Adrian tu był!");
