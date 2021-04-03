@@ -45,7 +45,7 @@ public class startFrame {
         System.out.println("Daniel tu był!");
         System.out.println("Daniel tu był!");
         System.out.println("Daniel tu był!");
-        System.out.println("Daniel tu był!");
+        System.out.println("Daniel tu byłsadas!");
 
         System.out.println("Adrian tu był!");
         System.out.println("Adrian tu był!");
