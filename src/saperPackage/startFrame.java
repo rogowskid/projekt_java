@@ -33,22 +33,7 @@ public class startFrame {
         frame.add(panel2);
 
 
-
-
-        System.out.println("Adrian tu był!");
-        System.out.println("Adrian tu był!");
-        System.out.println("Adrian tu był!");
-        System.out.println("Adrian tu był!");
-        System.out.println("Adrian tu był!");
-        System.out.println("Adrian tu był!");
-
-        System.out.println("Daniel tu był!");
-        System.out.println("Daniel tu był!");
-        System.out.println("Daniel tu był!");
-        System.out.println("Daniel tu byłsadas!");
-
-        System.out.println("Adrian tu był!");
-        System.out.println("Adrian tu był!");
+        System.out.println("KOONIEC");
 
     }
 
