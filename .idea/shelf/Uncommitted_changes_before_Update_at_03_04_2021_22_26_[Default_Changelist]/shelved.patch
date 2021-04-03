@@ -1,0 +1,19 @@
+Index: src/saperPackage/startFrame.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package saperPackage;\r\nimport javax.swing.*;\r\nimport java.awt.*;\r\nimport java.awt.event.ActionEvent;\r\nimport java.awt.event.ActionListener;\r\n\r\n\r\npublic class startFrame {\r\n    public JFrame frame;\r\n    public JPanel panel;\r\n    public JButton startG;\r\n    public startFrame(){\r\n\r\n        panel = new JPanel();\r\n        frame = new JFrame();\r\n        startG = new JButton(\"Start Game\"); //definicja przycisku Start Game\r\n        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); //Wczytanie znaku zamkniecie w prawym rogu\r\n        frame.setTitle(\"Saper\"); //Nazwa okna\r\n        frame.pack();\r\n        frame.setSize(700,700); //ustawienie szerokosci jak i wysokosci okna\r\n        frame.setVisible(true); //true oznacza ze okno jest widczone\r\n        panel.setBorder(BorderFactory.createEmptyBorder(0, 300, 100, 0));\r\n\r\n        panel.setLayout(new GridLayout(0,1));\r\n        panel.add(startG);\r\n        frame.add(panel, BorderLayout.CENTER);\r\n\r\n        System.out.println(\"Adrian tu był!\");\r\n        System.out.println(\"Adrian tu był!\");\r\n        System.out.println(\"Adrian tu był!\");\r\n        System.out.println(\"Adrian tu był!\");\r\n        System.out.println(\"Adrian tu był!\");\r\n        System.out.println(\"Adrian tu był!\");\r\n\r\n    }\r\n\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/saperPackage/startFrame.java b/src/saperPackage/startFrame.java
+--- a/src/saperPackage/startFrame.java	(revision 63c7c7108e30d469d1815a45b1a200aaf2ad3585)
++++ b/src/saperPackage/startFrame.java	(date 1617481459055)
+@@ -29,7 +29,7 @@
+         System.out.println("Adrian tu był!");
+         System.out.println("Adrian tu był!");
+         System.out.println("Adrian tu był!");
+-        System.out.println("Adrian tu był!");
++        System.out.println("Adrian tu był!")
+         System.out.println("Adrian tu był!");
+ 
+     }
