@@ -11,7 +11,7 @@ public class StartGamePanel extends JPanel {
     JButton backToMenu = new JButton("Powrot");
     StartGamePanel thisPanel = this;
     JLabel fieldChoose = new JLabel("Wybierz rozmiar pola");
-    JSlider fieldSlider = new JSlider(0,256, 0);
+    JSlider fieldSlider = new JSlider(0,25, 0);
     JLabel valueSlider = new JLabel("Liczba kratek: " + fieldSlider.getValue());
     public StartGamePanel(MainFrame parent){
 
@@ -44,7 +44,8 @@ public class StartGamePanel extends JPanel {
         fieldSlider.addChangeListener(new ChangeListener() {
             @Override
             public void stateChanged(ChangeEvent e) {
-                valueSlider.setText("Liczba kratek: " + fieldSlider.getValue()*2);
+                int val = fieldSlider.getValue()*fieldSlider.getValue();
+                valueSlider.setText("Liczba kratek: " + val);
             }
         });
 
