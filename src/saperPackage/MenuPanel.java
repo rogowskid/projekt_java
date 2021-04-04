@@ -12,6 +12,7 @@ public class MenuPanel extends JPanel {
     JButton rankingPanel;
     MenuPanel thisPanel = this;
 
+
     public MenuPanel(MainFrame parent) {
         this.setLayout(null);
         this.setBackground(Color.red);
@@ -47,6 +48,12 @@ public class MenuPanel extends JPanel {
             public void actionPerformed(ActionEvent e) {
                 parent.getContentPane().remove(thisPanel);
                 new RankingPanel(parent);
+            }
+        });
+        quitGame.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                System.exit(0);
             }
         });
 
