@@ -13,6 +13,10 @@ public class StartGamePanel extends JPanel {
     JLabel fieldChoose = new JLabel("Wybierz rozmiar pola");
     JSlider fieldSlider = new JSlider(0,25, 0);
     JLabel valueSlider = new JLabel("Liczba kratek: " + fieldSlider.getValue());
+
+    private JButton startGame = new JButton("Start Game");
+    private int numberOfFields;
+
     public StartGamePanel(MainFrame parent){
 
         //this.setBackground(Color.blue);
@@ -23,6 +27,11 @@ public class StartGamePanel extends JPanel {
         valueSlider.setBounds(250,80,250,20);
         fieldChoose.setFont(new Font("Verdana",Font.PLAIN, 12));
         valueSlider.setFont(new Font("Verdana",Font.PLAIN, 12));
+
+        startGame.setBounds(250, 200, 100,50);
+
+        this.add(startGame);
+
 
         this.add(fieldSlider);
         this.add(backToMenu);
@@ -44,8 +53,16 @@ public class StartGamePanel extends JPanel {
         fieldSlider.addChangeListener(new ChangeListener() {
             @Override
             public void stateChanged(ChangeEvent e) {
-                int val = fieldSlider.getValue()*fieldSlider.getValue();
-                valueSlider.setText("Liczba kratek: " + val);
+                numberOfFields = fieldSlider.getValue()*fieldSlider.getValue();
+                valueSlider.setText("Liczba kratek: " + numberOfFields);
+            }
+        });
+
+        startGame.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                parent.getContentPane().remove(thisPanel);
+                new GamePanel(parent, numberOfFields);
             }
         });
 
