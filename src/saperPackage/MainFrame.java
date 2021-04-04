@@ -1,3 +1,5 @@
+package saperPackage;
+
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
@@ -5,7 +7,7 @@ import java.awt.event.ActionListener;
 
 public class MainFrame extends JFrame {
 
-//    MainFrame thisFrame = this;
+//    saperPackage.MainFrame thisFrame = this;
 
 //    JPanel panel1 = new JPanel();
 //    JPanel panel2 = new JPanel();
