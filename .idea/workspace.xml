@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="400ce352-b86f-4a00-b888-e5e4b2124a34" name="Default Changelist" comment="Adrian, Klasa GamePanel v2">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/MenuTest/saperPackage/Field$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MenuTest/saperPackage/Field$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MenuTest/saperPackage/Field.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MenuTest/saperPackage/Field.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MenuTest/saperPackage/GamePanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MenuTest/saperPackage/GamePanel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/saperPackage/Field.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/saperPackage/Field.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/saperPackage/GamePanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/saperPackage/GamePanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/saperPackage/StartGamePanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/saperPackage/StartGamePanel.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
