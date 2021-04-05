@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="400ce352-b86f-4a00-b888-e5e4b2124a34" name="Default Changelist" comment="Daniel, dodane StartGamePanel">
-      <change afterPath="$PROJECT_DIR$/src/saperPackage/Field.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/saperPackage/GamePanel.java" afterDir="false" />
+    <list default="true" id="400ce352-b86f-4a00-b888-e5e4b2124a34" name="Default Changelist" comment="Adrian, Klasa GamePanel v2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MenuTest/saperPackage/StartGamePanel$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MenuTest/saperPackage/StartGamePanel$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MenuTest/saperPackage/StartGamePanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MenuTest/saperPackage/StartGamePanel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/saperPackage/StartGamePanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/saperPackage/StartGamePanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MenuTest/saperPackage/Field$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MenuTest/saperPackage/Field$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MenuTest/saperPackage/Field.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MenuTest/saperPackage/Field.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MenuTest/saperPackage/GamePanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MenuTest/saperPackage/GamePanel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/saperPackage/Field.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/saperPackage/Field.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/saperPackage/GamePanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/saperPackage/GamePanel.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +23,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -122,7 +123,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617528621204</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Adrian, Klasa GamePanel v2">
+      <created>1617650805408</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1617650805408</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -143,6 +151,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Zmieone na Adriana pliki" />
     <MESSAGE value="Daniel, dodane StartGamePanel" />
-    <option name="LAST_COMMIT_MESSAGE" value="Daniel, dodane StartGamePanel" />
+    <MESSAGE value="Adrian, Klasa GamePanel v2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adrian, Klasa GamePanel v2" />
   </component>
 </project>
