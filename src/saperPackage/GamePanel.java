@@ -17,7 +17,7 @@ public class GamePanel extends JPanel {
     JPanel topPanel = new JPanel();
     JPanel mainBoardPanel = new JPanel();
 
-    public static JLabel scoreValue = new JLabel ("Score: " + counterPink);
+    public static JLabel scoreValue = new JLabel ("Score: " + counterPink, SwingConstants.LEFT);
 
 
 
@@ -45,15 +45,15 @@ public class GamePanel extends JPanel {
         }
 
 
-        parent.validate();
-        parent.repaint();
-
         mainBoardPanel.setBounds(0,160, 640,640);
         mainBoardPanel.setBackground(Color.CYAN);
         this.add(mainBoardPanel);
 
         topPanel.setBounds(0,0,640,160);
         topPanel.setBackground(Color.darkGray);
+        topPanel.setLayout(null);
+        topPanel.add(scoreValue);
+
         this.add(topPanel);
         scoreValue.setForeground(Color.white);
         scoreValue.setFont(new Font("Verdana", Font.PLAIN, 22));
@@ -62,15 +62,13 @@ public class GamePanel extends JPanel {
 
 
 
-        topPanel.add(scoreValue);
-
-
-
         generateBombs(fields,bombsNumber); //Tymczasowo 2 parametr
 
         for(int i = 0; i < fields.length; i++)
             fields[i].setValue(checkNeighbor(fields, i));
 
+        parent.validate();
+        parent.repaint();
     }
 
     public static void generateBombs(Field[] fields, int number_of_bombs){

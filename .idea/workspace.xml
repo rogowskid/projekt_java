@@ -1,17 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="400ce352-b86f-4a00-b888-e5e4b2124a34" name="Default Changelist" comment="xxxxxxxx">
-      <change afterPath="$PROJECT_DIR$/src/saperPackage/flag.png" afterDir="false" />
+    <list default="true" id="400ce352-b86f-4a00-b888-e5e4b2124a34" name="Default Changelist" comment="Adrian, W pyte działa">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/MenuTest/saperPackage/Field$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MenuTest/saperPackage/Field$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MenuTest/saperPackage/Field.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MenuTest/saperPackage/Field.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/MenuTest/saperPackage/GamePanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MenuTest/saperPackage/GamePanel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MenuTest/saperPackage/MenuPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MenuTest/saperPackage/MenuPanel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MenuTest/saperPackage/StartGamePanel$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MenuTest/saperPackage/StartGamePanel$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/saperPackage/Field.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/saperPackage/Field.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/saperPackage/GamePanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/saperPackage/GamePanel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/saperPackage/StartGamePanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/saperPackage/StartGamePanel.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,17 +19,16 @@
       </list>
     </option>
   </component>
+  <component name="Git.Pull.Settings">
+    <option name="OPTIONS">
+      <set>
+        <option value="REBASE" />
+      </set>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="REBASE" />
-  </component>
-  <component name="GitSEFilterConfiguration">
-    <file-type-list>
-      <filtered-out-file-type name="LOCAL_BRANCH" />
-      <filtered-out-file-type name="REMOTE_BRANCH" />
-      <filtered-out-file-type name="TAG" />
-      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
-    </file-type-list>
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -45,15 +38,11 @@
     </option>
   </component>
   <component name="ProjectId" id="1qg5Z6GKfeGcp1CY9IQxQuMDINE" />
-  <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -69,13 +58,6 @@
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="saperPackage.Main" />
-      <module name="MenuTest" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -83,6 +65,13 @@
         </value>
       </option>
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="saperPackage.Main" />
+      <module name="MenuTest" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -103,8 +92,6 @@
       <updated>1617488482088</updated>
       <workItem from="1617524478467" duration="1000" />
       <workItem from="1617524501025" duration="4721000" />
-      <workItem from="1617721275576" duration="184000" />
-      <workItem from="1617725851173" duration="8250000" />
     </task>
     <task id="LOCAL-00001" summary="Zmieone na Adriana pliki">
       <created>1617524534916</created>
@@ -148,14 +135,7 @@
       <option name="project" value="LOCAL" />
       <updated>1617650805408</updated>
     </task>
-    <task id="LOCAL-00007" summary="xxxxxxxx">
-      <created>1617714598291</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1617714598291</updated>
-    </task>
-    <option name="localTasksCounter" value="8" />
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -174,11 +154,9 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Zmieone na Adriana pliki" />
     <MESSAGE value="Daniel, dodane StartGamePanel" />
     <MESSAGE value="Adrian, Klasa GamePanel v2" />
-    <MESSAGE value="xxxxxxxx" />
-    <option name="LAST_COMMIT_MESSAGE" value="xxxxxxxx" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adrian, Klasa GamePanel v2" />
   </component>
 </project>
