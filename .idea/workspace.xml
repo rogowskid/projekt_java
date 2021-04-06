@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="400ce352-b86f-4a00-b888-e5e4b2124a34" name="Default Changelist" comment="Daniel, zmieniona plansza">
+    <list default="true" id="8abf4139-8ae8-43ea-8246-eeb72d762d74" name="Default Changelist" comment="Daniel, zmieniona plansza">
+      <change afterPath="$PROJECT_DIR$/src/saperPackage/Field.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/saperPackage/GamePanel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/MenuTest/saperPackage/StartGamePanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MenuTest/saperPackage/StartGamePanel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/saperPackage/StartGamePanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/saperPackage/StartGamePanel.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +18,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Rebase.Settings">
+    <option name="NEW_BASE" value="master" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -65,14 +69,14 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="400ce352-b86f-4a00-b888-e5e4b2124a34" name="Default Changelist" comment="" />
+      <changelist id="8abf4139-8ae8-43ea-8246-eeb72d762d74" name="Default Changelist" comment="Daniel, zmieniona plansza" />
       <created>1617488482088</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1617488482088</updated>
       <workItem from="1617524478467" duration="1000" />
-      <workItem from="1617524501025" duration="4774000" />
-      <workItem from="1617529344459" duration="657000" />
+      <workItem from="1617524501025" duration="4721000" />
+      <workItem from="1617705351741" duration="305000" />
     </task>
     <task id="LOCAL-00001" summary="Zmieone na Adriana pliki">
       <created>1617524534916</created>
@@ -110,11 +114,11 @@
       <updated>1617528621204</updated>
     </task>
     <task id="LOCAL-00006" summary="Daniel, zmieniona plansza">
-      <created>1617529273500</created>
+      <created>1617648968619</created>
       <option name="number" value="00006" />
       <option name="presentableId" value="LOCAL-00006" />
       <option name="project" value="LOCAL" />
-      <updated>1617529273500</updated>
+      <updated>1617648968619</updated>
     </task>
     <option name="localTasksCounter" value="7" />
     <servers />
