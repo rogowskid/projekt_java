@@ -1,18 +1,31 @@
 package saperPackage;
 
+import javax.imageio.ImageIO;
 import javax.swing.*;
 import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.awt.event.MouseAdapter;
+import java.awt.event.MouseEvent;
+import java.awt.image.BufferedImage;
+import java.io.File;
 import java.util.Random;
+import java.util.Timer;
 
 public class GamePanel extends JPanel {
-
+    public static int counterPink=0;
     JPanel topPanel = new JPanel();
     JPanel mainBoardPanel = new JPanel();
+
+    public static JLabel scoreValue = new JLabel ("Score: " + counterPink);
+
+
+
 
     GamePanel thisPanel = this;
     Field[] fields;
 
-    public GamePanel(MainFrame parent, int numberOfFields) {
+    public GamePanel(MainFrame parent, int numberOfFields, int bombsNumber) {
 
         parent.setSize(655,838);
         this.setBackground(Color.gray);
@@ -20,6 +33,9 @@ public class GamePanel extends JPanel {
         parent.getContentPane().add(this);
 
         fields = new Field[numberOfFields];
+
+
+
 
         mainBoardPanel.setLayout(new GridLayout((int)Math.sqrt(numberOfFields), (int)Math.sqrt(numberOfFields)));
 
@@ -39,8 +55,18 @@ public class GamePanel extends JPanel {
         topPanel.setBounds(0,0,640,160);
         topPanel.setBackground(Color.darkGray);
         this.add(topPanel);
+        scoreValue.setForeground(Color.white);
+        scoreValue.setFont(new Font("Verdana", Font.PLAIN, 22));
+        scoreValue.setBounds(0,130,200,20);
 
-        generateBombs(fields, fields.length/3); //Tymczasowo 2 parametr
+
+
+
+        topPanel.add(scoreValue);
+
+
+
+        generateBombs(fields,bombsNumber); //Tymczasowo 2 parametr
 
         for(int i = 0; i < fields.length; i++)
             fields[i].setValue(checkNeighbor(fields, i));

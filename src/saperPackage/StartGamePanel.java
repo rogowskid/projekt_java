@@ -98,7 +98,7 @@ public class StartGamePanel extends JPanel {
                 if (numberBombs.getValue()<=numberOfFields)
                 {
                     parent.getContentPane().remove(thisPanel);
-                    new GamePanel(parent, numberOfFields);
+                    new GamePanel(parent, numberOfFields, numberBombs.getValue());
                 }
                 if(numberBombs.getValue()>numberOfFields)
                 {
