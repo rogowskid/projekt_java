@@ -18,7 +18,7 @@ public class MenuPanel extends JPanel {
         this.setBackground(Color.red);
 
         parent.getContentPane().add(this);
-        parent.setSize(700,700);
+        parent.setSize(655,838);
         parent.setResizable(false);
         parent.validate();
         parent.repaint();
@@ -27,9 +27,9 @@ public class MenuPanel extends JPanel {
         rankingPanel = new JButton("Ranking");
         quitGame = new JButton("Quit Game");
 
-        startGame.setBounds(300,50,100,50);
-        rankingPanel.setBounds(300,120,100,50);
-        quitGame.setBounds(300,190,100,50);
+        startGame.setBounds(parent.getWidth()/2-50,50,100,50);
+        rankingPanel.setBounds(parent.getWidth()/2-50,120,100,50);
+        quitGame.setBounds(parent.getWidth()/2-50,190,100,50);
         this.add(startGame);
         this.add(rankingPanel);
         this.add(quitGame);

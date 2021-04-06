@@ -9,13 +9,14 @@ public class Field extends JPanel {
 
     private int index;
     private int value;
+    private int counterOfpink=0;
     private boolean isBomb = false;
 
 
 
     private Field thisField = this;
     private JLabel valueText  = new JLabel(thisField.getValue()+"", SwingConstants.CENTER);
-
+    private JLabel scoreValue = new JLabel ("Score: " + counterOfpink);
     public int getIndex() {
         return index;
     }
@@ -23,6 +24,7 @@ public class Field extends JPanel {
     public Field(int index) {
         this.index = index;
         this.setBackground(Color.gray);
+
         this.setBorder(BorderFactory.createBevelBorder(1));
         this.setLayout(new GridLayout(1,1));
 
@@ -39,9 +41,11 @@ public class Field extends JPanel {
                 }else {
                     thisField.setBackground(Color.PINK);
                     valueText.setText(thisField.getValue()+"");
+                    counterOfpink++;
                 }
 
                 thisField.add(valueText);
+
                 validate();
                 repaint();
             }
